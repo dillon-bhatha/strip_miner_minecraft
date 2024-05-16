@@ -5,7 +5,7 @@ Dit script is bedoeld voor gebruik met een Turtle in Minecraft. Het maakt gebrui
 ## Gebruik
 
 1. Plaats een turtle in Minecraft en zorg ervoor dat hij is aangesloten op een computer. Het liefst op diamond level. (Voor diamonds :)
-2. Start Minecraft en voer het script uit op de computer. In de tweede slot moet je je torches plaatsen want anders plaatst hij misschien blokjes.
+2. Start Minecraft en voer het script uit op de computer.in de eerste slot plaats je je coal of coal blokken en in de tweede slot moet je je torches plaatsen want anders plaatst hij misschien blokjes.
 
 ## Functies
 
