@@ -13,7 +13,7 @@ local function placeTorches()
     for _ = 1, 2 do
         turtle.turnRight()
     end
-    turtle.select(2)  -- Selecteer het tweede slot (aangenomen dat dit het slot is waar de fakkels zich bevinden)
+    turtle.select(2)
     turtle.place()
     for _ = 1, 2 do
         turtle.turnRight()
