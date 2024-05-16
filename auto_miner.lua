@@ -1,3 +1,22 @@
+local function refuelIfNeeded()
+    if turtle.getFuelLevel() == 0 then
+        local refueled = false
+        for slot = 1, 16 do
+            turtle.select(slot)
+            if turtle.refuel(1) then
+                print("Bijgevuld!")
+                refueled = true
+                break
+            end
+        end
+        if not refueled then
+            print("Geen brandstof meer")
+            return false
+        end
+    end
+    return true
+end
+
 local function placeTorches()
     for _ = 1, 2 do
         turtle.turnRight()
