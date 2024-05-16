@@ -1,0 +1,1 @@
+wget run https://raw.githubusercontent.com/dillon-bhatha/strip_miner_minecraft/main/auto_miner.lua
